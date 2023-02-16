@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
  * main -A c program that prints the size of various types of variables
  * Return: 0(correct)
