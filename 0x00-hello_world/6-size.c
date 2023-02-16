@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * main - A c program that prints the size of various types of variables
- * Return: 0
+ * main -A c program that prints the size of various types of variables
+ * Return: 0(correct)
  */
+
 int main(void)
 {
 printf("Size of a char: %zu byte(s)\n", sizeof(char));
