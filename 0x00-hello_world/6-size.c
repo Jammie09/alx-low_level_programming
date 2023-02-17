@@ -16,15 +16,15 @@ long int m;
 long long int e;
 float s;
 
-printf("Size of a char: %lu bytes(s)\n", (unsigned long) sizeof(j));
+printf("Size of a char: %i bytes(s)\n", (unsigned long) sizeof(j));
 
-printf("Size of a int: %lu bytes(s)\n", (unsigned long) sizeof(a));
+printf("Size of a int: %i bytes(s)\n", (unsigned long) sizeof(a));
 
-printf("Size of a long int: %lu bytes(s)\n", (unsigned long) sizeof(m));
+printf("Size of a long int: %i bytes(s)\n", (unsigned long) sizeof(m));
 
-printf("Size of a long long int: %lu bytes(s)\n", (unsigned long) sizeof(e));
+printf("Size of a long long int: %i bytes(s)\n", (unsigned long) sizeof(e));
 
-printf("Size of a float: %lu bytes(s)\n", (unsigned long) sizeof(s));
+printf("Size of a float: %i bytes(s)\n", (unsigned long) sizeof(s));
 
 return (0);
 }
