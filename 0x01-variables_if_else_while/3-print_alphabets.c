@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 /**
  * main - Entry point
@@ -9,22 +10,25 @@ int main(void)
 {
 	char lowercase = 'a';
 	char uppercase = 'A';
+	char alphabet[52];
+	int i = 0;
 
-	printf("Lowercase alphabet: ");
 	while (lowercase <= 'z')
 	{
-		putchar(lowercase);
+		alphabet[i] = lowercase;
+		i++;
 		lowercase++;
 	}
-	printf("\n");
 
-	printf("Uppercase alphabet: ");
 	while (uppercase <= 'Z')
 	{
-		putchar(uppercase);
+		alphabet[i] = uppercase;
+		i++;
 		uppercase++;
 	}
-	printf("\n");
+
+	alphabet[i] = '\0';
+	printf("%s\n", alphabet);
 
 	return (0);
 }
