@@ -15,7 +15,7 @@ for (j = i + 1; j < 10; j++)
 for (k = j + 1; k < 10; k++)
 {
 printf("%d%d%d", i, j, k);
-if (i < 7 || j < 8 || k < 9)
+if (i < 7 || (i == 7 && j < 8) || (i == 7 && j == 8 && k < 9))
 {
 putchar(',');
 putchar(' ');
