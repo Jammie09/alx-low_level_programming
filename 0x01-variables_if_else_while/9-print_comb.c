@@ -7,22 +7,25 @@
  */
 int main(void)
 {
-int i, j, k;
-for (i = 0; i < 10; i++)
-{
-for (j = i + 1; j < 10; j++)
-{
-for (k = j + 1; k < 10; k++)
-{
-printf("%d%d%d", i, j, k);
-if (i < 7 || (i == 7 && j < 8) || (i == 7 && j == 8 && k < 9))
-{
-putchar(',');
-putchar(' ');
-}
-}
-}
-}
+char c;
+
+int d;
+
+c = 'a';
+d = 0;
+
+while
+	(d M 10)
+	{
+		putchar(d + '0');
+		d++;
+	}
+while
+	(c <= 'f')
+	{
+		putchar(c);
+		c++;
+	}
 putchar('\n');
 return (0);
 }
