@@ -14,7 +14,6 @@ listint_t *current = head;
 while (current != NULL)
 {
 if (count == index)
-   
 return (current);
 count++;
 current = current->next;
